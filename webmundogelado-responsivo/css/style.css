@@ -1,0 +1,86 @@
+/*GERAL*/
+* {
+    box-sizing: border-box;
+}  
+
+body{
+    font-family: 'Nunito';
+    margin: 0;
+}
+
+
+ /*BARRA DE NAVEGAÇÃO*/
+ .navbar{
+    background-color: #a0bed0;.
+    font-size: 13px;
+}
+   
+  
+.navbar__box{
+    display: flex;
+    justify-content: flex-end;
+    padding: 18px;
+   
+}
+
+.navbar__box a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin: 0 50px 0 0;
+}
+
+.navbar__menu-mobile{
+    display: none;
+}
+
+/*BARRA DE NAVEGAÇÃO MOBILE*/
+
+@media (max-width: 420px){
+    .navbar__menu-mobile{
+        display: block;
+    }
+
+    .navbar{
+        background-color: white;
+        padding: 10px;
+    }
+
+    .navbar__box a {
+        display: none;
+    }
+}
+
+/*TÍTULO, TEXTO E BOTÃO*/
+
+.container{
+
+   background-image: url(../img/foto-banner.jpg);
+   background-size: cover;
+   
+   
+
+
+}
+
+.container__título{
+    font-family: 'Nunito', sans-serif;
+    font-size: 105px;
+
+
+
+}
+
+
+
+.container__btn{
+    background: 
+
+}
+
+
+
+
+
+
+
