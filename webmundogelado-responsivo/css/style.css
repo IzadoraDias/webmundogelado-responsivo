@@ -22,7 +22,7 @@ a{
     position: fixed;
     width: 100%;
     top: 0;
-
+    z-index: 99;
 }
    
 .nav__menu{
@@ -99,8 +99,6 @@ a{
     font-weight: bold;
     color: white;
     opacity: .7;
-
-
 }
 
 
@@ -120,14 +118,48 @@ a{
 
 .btn--primary:hover{
     background-color: #36b0e0;
-    
 }
 
+.second-container{
+    font-family: 'Nunito';
+    background-color: rgba(22, 22, 22, .8);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
 
+.second-container__title{
+    color: #fff;
+    text-transform: uppercase;
+}
 
+.second-container__subtitle{
+    margin-top: 10px;
+    color:#6c757d;
+    text-align: center;
+    text-decoration: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    opacity: .5;
+}
 
+.text1{
+    width: 80vw;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
 
+}
 
+.siberia{
+    width: 730px;
+    display: block;
+}
 
+ .title{
+     padding: 150px 30px;
+  }
 
 
